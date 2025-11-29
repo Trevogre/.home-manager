@@ -21,7 +21,6 @@
     mesa-demos
     vulkan-tools
     mermaid-cli
-    stable.zed-editor
     code-cursor
     claude-code
     dotnetCorePackages.dotnet_9.sdk
