@@ -9,7 +9,6 @@
 {
 
   home.packages = with pkgs; [
-    hyprsunset
     hypridle
     dunst
     libnotify
