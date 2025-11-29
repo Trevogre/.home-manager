@@ -1,0 +1,20 @@
+{
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.menus.monochrome": false,
+  "theme.font.name": "CommitMono",
+  "theme.font.label": "CommitMono Bold",
+  "theme.font.size": "1.2rem",
+  "theme.bar.menus.enableShadow": false,
+  "scalingPriority": "gdk",
+  "theme.bar.border.location": "none",
+  "bar.launcher.icon": "󰣇",
+  "bar.windowtitle.class_name": true,
+  "theme.bar.buttons.notifications.enableBorder": false,
+  "bar.notifications.show_total": true,
+  "theme.bar.menus.background": "#11111b",
+  "theme.bar.menus.opacity": 100,
+  "theme.bar.opacity": 0,
+  "theme.bar.buttons.opacity": 80
+}

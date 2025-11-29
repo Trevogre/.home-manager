@@ -10,9 +10,11 @@
 
   home.packages = with pkgs; [
     hypridle
+    hyprpanel
     dunst
     libnotify
     linux-wallpaperengine
+
   ];
 
   home.activation.symlinkTmuxConf = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
@@ -34,5 +36,11 @@
     ln -sf $HOME/.home-manager/config_files/hypr/appearance.conf $HOME/.config/hypr/appearance.conf
     ln -sf $HOME/.home-manager/config_files/hypr/variables.conf $HOME/.config/hypr/variables.conf
     ln -sf $HOME/.home-manager/config_files/hypr/monitors.conf $HOME/.config/hypr/monitors.conf
+
+    mkdir -p ~/.config/hyprpanel
+
+    ln -sf $HOME/.home-manager/config_files/hyprpanel/config.json $HOME/.config/hyprpanel/config.json
+    ln -sf $HOME/.home-manager/config_files/hyprpanel/modules.json $HOME/.config/hyprpanel/modules.json
+    ln -sf $HOME/.home-manager/config_files/hyprpanel/modules.scss $HOME/.config/hyprpanel/modules.scss
   '';
 }

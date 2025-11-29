@@ -41,5 +41,6 @@
     jetbrains.rider
     spotify
     github-desktop
+    gamescope
   ];
 }

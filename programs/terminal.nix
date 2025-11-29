@@ -25,6 +25,9 @@
       export PATH="$HOME/.cargo/bin:$PATH"
       export PS1=" \033[1;32m\]\w\[\033[0m "
       export NIXPKGS_ALLOW_UNFREE=1
+      export ENABLE_HDR_WSI=1 
+      export DXVK_HDR=1 
+      export VKD3D_HDR=1
     '';
     profileExtra = ''
       export PATH="$HOME/.cargo/bin:$PATH"
@@ -35,6 +38,7 @@
       rehome = "home-manager switch --impure --flake ~/.home-manager/";
       pipes = "pipes-rs";
       venv = ". .venv/bin/activate";
+      gs = "gamescope --prefer-output HDMI-A-1 --hdr-enabled --fullscreen -- steam -applaunch ";
       vim = "nvim";
       clean = "nix-collect-garbage -d && sudo nix-collect-garbage -d && nix store optimise && sudo nix store optimise";
       nd = "nix develop --impure";

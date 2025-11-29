@@ -12,7 +12,7 @@ let
 in
 {
   home.packages = with pkgs; [
-    # stable.microsoft-edge
+    old.microsoft-edge
   ];
 
   programs.chromium = {
