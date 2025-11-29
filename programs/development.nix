@@ -34,5 +34,12 @@
     zulu8
     prismlauncher
     atlauncher
+    # misc stuff from old config
+    dropbox
+    onedrive
+    qgis
+    jetbrains.rider
+    spotify
+    github-desktop
   ];
 }

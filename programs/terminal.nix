@@ -24,6 +24,7 @@
     bashrcExtra = ''
       export PATH="$HOME/.cargo/bin:$PATH"
       export PS1=" \033[1;32m\]\w\[\033[0m "
+      export NIXPKGS_ALLOW_UNFREE=1
     '';
     profileExtra = ''
       export PATH="$HOME/.cargo/bin:$PATH"
