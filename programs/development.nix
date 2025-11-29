@@ -17,7 +17,6 @@
     cloc
     stable.nodejs_24
     stable.typst
-    zathura
     mesa-demos
     vulkan-tools
     mermaid-cli
