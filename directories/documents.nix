@@ -1,0 +1,12 @@
+{
+  config,
+  pkgs,
+  lib,
+  ...
+}:
+
+{
+  home.activation.createDocumentsDirs = lib.hm.dag.entryAfter [ "writeBoundary" ] ''
+    mkdir -p ~/Documents/Code 
+  '';
+}
