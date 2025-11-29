@@ -1,7 +1,6 @@
 {
   config,
   pkgs,
-  PC,
   lib,
   ...
 }:
@@ -17,6 +16,6 @@
   # home.packages =
   #   with pkgs;
   #   [
-  #   ]
-  #   ++ lib.optionals PC [ bambu-studio ];
+  #     bambu-studio
+  #   ];
 }

@@ -49,8 +49,6 @@
       };
 
       alga = inputs.alga.packages.${system}.default;
-      Mac = pkgs.hostPlatform.isAarch64;
-      PC = pkgs.hostPlatform.isx86_64;
     in
     {
       homeConfigurations = {
@@ -58,8 +56,6 @@
           inherit pkgs;
           extraSpecialArgs = {
             inherit alga;
-            inherit Mac;
-            inherit PC;
             inherit inputs;
             inherit stable;
             inherit old;
